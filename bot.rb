@@ -1,7 +1,7 @@
 require 'telegram/bot'
 require './wunderlist_wrapper'
 
-token = '496923242:AAEPNzJQkBTl3ox2Pd92VufQbaQCgoNUd3k'
+token = '589796906:AAGIhBK9efRirSD5QL3QmjSd0-nvn3ZxqWM'
 
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
